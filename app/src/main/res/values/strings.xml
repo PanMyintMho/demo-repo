@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewFlipper</string>
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button two</string>
+    <string name="button_three">Button Three</string>
+    <string name="button_four">Button Four</string>
+    <string name="button_five">Button Five</string>
+    <string name="button_six">Button Six</string>
+    <string name="button_seven">Button Seven</string>
+</resources>

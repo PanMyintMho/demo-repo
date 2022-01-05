@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ViewFlipper
+        android:id="@+id/vflipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnone"
+            android:background="@color/purple_200"
+            android:text="@string/button_one"
+         style="@style/custom_style">
+        </Button>
+        <Button
+            android:id="@+id/btntwo"
+            android:background="@color/purple_500"
+            android:text="@string/button_two"
+         style="@style/custom_style">
+        </Button>
+        <Button
+            android:id="@+id/btnthree"
+            android:text="@string/button_three"
+      style="@style/custom_style"
+            android:background="@color/purple_700">
+        </Button>
+        <Button
+            android:id="@+id/btnfour"
+            android:text="@string/button_four"
+            style="@style/custom_style"
+            android:background="@color/teal_200">
+        </Button>
+        <Button
+            android:id="@+id/btnfive"
+            android:text="@string/button_five"
+            style="@style/custom_style"
+            android:background="@color/teal_700">
+        </Button>
+        <Button
+            android:id="@+id/btnsix"
+            android:text="@string/button_six"
+            style="@style/custom_style"
+            android:background="@color/red">
+        </Button>
+        <Button
+            android:id="@+id/btnseven"
+            android:text="@string/button_seven"
+             style="@style/custom_style"
+            android:background="@color/orange">
+        </Button>
+
+    </ViewFlipper>
+
+
+
+
+
+</LinearLayout>
